@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+
+.drop-back{
+    background:rgba(0,0,0,0.5);
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+}
+
+img{
+    width:365px;
+    height:365px;
+}
+.image{
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+
+.image__container{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.modal{
+    position: fixed;
+    z-index: 100;
+    margin: auto;
+    border: 5px solid red;
+    top: 10%;
+    left: 30%;
+}
+
+.modal img{
+    width: 600px;
+    height: 600px;
+}
